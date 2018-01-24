@@ -1,0 +1,4 @@
+"No","API","Method","RequestData","Expected"
+"1","/user/signin","POST","{'phone':'12345678901','password':'123456'}","{'code':2000}"
+"2","/user/signin","POST","{'phone':'15678901','password':'123456'}","{'code':2050}"
+"3","/user/signin","POST","{'a':1,'b':2}","{'code':2010}"
